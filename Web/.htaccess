@@ -1,0 +1,11 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule ^(.*)/public/(.*)$ Resources/public/$2 [L]
+RewriteRule ^public/(.*)$ Resources/public/$1 [L]
+RewriteCond ^%(REQUEST_URL) !/public
+
+#RewriteRule ^codex\-([0-9]*)\.html$ codex.php?reference=$1 [L]
+
+## Cahier des charges ##
+RewriteRule ^cahier-des-charges$ cahier_des_charges.php [L]

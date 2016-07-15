@@ -1,0 +1,78 @@
+/*
+* ----------------------
+* cahier-des-charges.css
+* ----------------------
+*
+* 
+* Par Adr3nalaNN
+*/
+
+/* Base de la page */
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: "Courier New", "Times New Roman", Arial, sans-serif;
+	color: #000000;
+	background-color: #c3c7c9;
+}
+
+/* Compartiment centrale */
+section {
+	width: 65%;
+	margin: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border-radius: 5px;
+	background-color: #ffffff;
+
+	-webkit-box-shadow: 0 0 0.5em 0.2em #5a5b5d;
+	   -moz-box-shadow: 0 0 0.5em 0.2em #5a5b5d;
+	        box-shadow: 0 0 0.5em 0.2em #5a5b5d;
+}
+
+/* Position du titre de page */
+div.titre {
+	padding: 4em 10% 0 10%;
+}
+
+/* Mise en forme du titre */
+div.titre p {
+	font-size: 2.3em;
+	color: #3a4e66;
+	padding-bottom: 0.15em;
+	border-bottom: 0.07em solid #c0cdd9;
+}
+
+/* Bloc contenant chaques parties du cahier */
+div.section {
+	padding: 0 10% 0 10%;
+}
+
+/* Mise en forme du nom de la parti */
+div.section p {
+	margin: 0;
+	padding-bottom: 0.3em;
+	color: #4a6785;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/* Chaque point (*) */
+ul {
+	margin: 0;
+	padding-bottom: 2.5em;
+}
+
+img {
+	-webkit-filter: blur(0.45em);
+	-moz-filter: blur(0.45em);
+	-o-filter: blur(0.45em);
+	-ms-filter: blur(0.45em);
+
+	filter: blur(0.45em);
+}
